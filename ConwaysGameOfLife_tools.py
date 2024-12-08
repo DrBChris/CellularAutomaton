@@ -1,6 +1,10 @@
 import numpy as np
 import time
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
+plt.ion()
+
 
 def check_surroundings(map,y,x):
 
